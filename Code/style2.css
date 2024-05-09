@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c3cfe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full{
+    background-color: #fff;
+    height: 60%;
+    width: 35%;
+    margin: 70px 20px 20px 20px;
+    padding: 50px 10px;  
+    border-radius: 10px;
+    /* display: flex; */
+    /* text-align: center; */
+}
+.head{
+    text-align: center;
+    /* margin: 10px; */
+}
+
+.email input{
+    height: 6vh;
+    width: 32vw;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #e4ebe4;
+    
+}
+/* .input :focus{
+    background-color: aqua;
+} */
+.password input{
+    height: 6vh;
+    width: 32vw;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #e4ebe4;
+}
+
+.email{
+    margin: 20px;
+}
+.password{
+    margin: 20px;
+}
+
+
+
+
+
+
+ 
+   .email i{
+    position: absolute;
+    margin: 35px 0 0 10px; 
+    color: #555;
+  } 
+  .input-email{
+    padding-left: 30px;
+  }
+  .password i {
+    position: absolute;
+    margin: 33px 0 0 10px; 
+    color: #555;
+  }
+  .input-password{
+    padding-left: 30px;
+  }
+  .form label{
+    display: block;
+  }
+  .butn{
+    height: 6vh;
+    width: 12vw;
+    border-radius: 10px;
+    cursor: pointer;
+    /* text-align: center; */
+    border: 2px solid green;
+    outline: none;
+    color: green;
+    font-size: 3vh;
+    background-color: #fff;
+    margin-top: 15px;
+    /* background-color: green;
+    color: white; */
+    
+
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn :hover{
+    /* background-color: rgb(236, 232, 232);  */
+    background-color: rgb(3, 150, 3);
+    color: white;
+    cursor: pointer;
+  }
+
+  .hov :focus{
+    border: 2px solid rgb(3, 100, 3);
+  }
+  /* .name label{
+    font-weight: bold;
+  } */
+
+
+/* Medium screens (tablets, large phones etc.) */
+@media (max-width: 768px) {
+    .full {
+        
+        width: 80%; 
+        margin: 20px; 
+    }
+
+    .email input,
+    .password input {
+        
+        width: calc(100% - 20px); 
+    }
+
+    .butn {
+        
+        width: 100%; 
+        font-size: 2.5vh; 
+    }
+}
+
+/* Smaller screens (small phones etc.) */
+@media (max-width: 480px) {
+    .full {
+        
+        width: 90%; 
+        padding: 30px 20px; 
+    }
+
+    .email i,
+    .password i {
+      
+        margin-left: 5px; 
+    }
+
+    .input-email,
+    .input-password {
+        padding-left: 30px; 
+    }
+}
+
+
